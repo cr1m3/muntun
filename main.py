@@ -9,8 +9,8 @@
 import requests, os, sys, hashlib, json
 from multiprocessing.pool import ThreadPool
 
-if sys.version_info.major != 2:
-  exit('\n[WARNING] Gunakan python versi 2')
+if sys.version_info.major != 3:
+  exit('\n[WARNING] Gunakan python versi 3')
 
 class MOONTON:
   def __init__(self):
